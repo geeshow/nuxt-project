@@ -85,4 +85,5 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  serverMiddleware: [{ path: '/api', handler: '~/api/index.js' }],
 }
