@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>I am a blog post</h1>
+    <h1>Default blog page</h1>
   </div>
 </template>
 

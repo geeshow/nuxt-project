@@ -8,19 +8,17 @@
 
         <v-spacer></v-spacer>
 
-        <v-toolbar-item class="hidden-sm-and-down">
-          <v-btn text>
-            <n-link to="/">Home</n-link>
-          </v-btn>
+        <v-btn text>
+          <n-link to="/">Home</n-link>
+        </v-btn>
 
-          <v-btn text>
-            <n-link to="/about">About</n-link>
-          </v-btn>
+        <v-btn text>
+          <n-link to="/about">About</n-link>
+        </v-btn>
 
-          <v-btn text>
-            <n-link to="/inspire">Inspire</n-link>
-          </v-btn>
-        </v-toolbar-item>
+        <v-btn text>
+          <n-link to="/inspire">Inspire</n-link>
+        </v-btn>
       </v-toolbar>
     </v-card>
     <nuxt />
